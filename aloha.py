@@ -55,7 +55,7 @@ def aloha(sum_num=1):
 
             # 计算当前完成度并输出
             processed_n += 1
-            print('\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b%5.2f%% Completed!'%((processed_n*100/total_n),end=' ')
+            print('\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b%6.2f%% Completed!'%(processed_n*100/total_n),end=' ')
 
     G_array/=sum_n        # 平均，完成随机平均的平均过程
     S_array/=sum_n
