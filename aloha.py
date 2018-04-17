@@ -14,7 +14,7 @@ def aloha(sum_num=1):
     total_n = G_MAX*package_length*total_time*sum_n         # 完成绘图需要的总计算量，用于计算当前完成度
     processed_n = 0                                         # 当前已完成计算量，初始值为0
 
-    for n in range(1,sum_n+1):  # 此循环将求出sum+1张G、S对应关系图，然后将他们对应相加，即完成了随机平均的求和过程
+    for n in range(1,sum_n+1):  # 此循环最终将求出sum+1张G、S对应关系图，然后将他们对应相加，即完成了随机平均的求和过程
 
         # 此循环将得到一对较为粗糙的G、S值
         for idx in range(1,G_MAX*package_length*total_time+1):  # idx表示发送的包的总量
